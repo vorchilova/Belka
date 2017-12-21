@@ -1,18 +1,6 @@
-/*общие св-ва*/
-@font-face {
-  font-family: 'Futura Bold';
-  src: url('../fonts/Futura PT/FUTURABOLD.TTF') format ('truetype');
-}
-
-@font-face {
-  font-family: 'Futura Regular';
-  src: url('../fonts/Futura PT/FUTURAREGULAR.TTF') format ('truetype');
-}
-
 
 body {
  text-align: center;
- /*font-size: 0;*/
 }
 
 ul {
