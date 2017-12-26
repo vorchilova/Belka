@@ -16,11 +16,21 @@ ul {
 .promo {
   background-image: url(../img/promo_fon.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
   overflow: hidden;
 }
 
 .page-header {
   display: flex;
+  justify-content: flex-start;
+  padding: 8px 0;
+  background-color: #e9e9f1;
+}
+
+.page-header__phone {
+  width: 180px;
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
 }
 
 .page-header__phone-link {
@@ -28,6 +38,9 @@ ul {
   color: #000;
   font-size: 18px;
   font-family: Arial, sans-serif;
+  width: 180px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .promo__row {
@@ -78,6 +91,8 @@ ul {
   width: 150px;
   text-align: left;
 }
+
+
 
 
 .trails__title {
