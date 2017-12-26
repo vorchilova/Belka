@@ -13,13 +13,6 @@ ul {
   margin: 0 auto;
 } 
 
-.promo {
-  background-image: url(../img/promo_fon.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  overflow: hidden;
-}
-
 .page-header {
    padding: 8px 0;
    background-color: #e9e9f1;
@@ -52,14 +45,26 @@ ul {
   width: 10px;
 }
 
-.promo__row {
-  position: relative;
+.promo__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo {
+  background-image: url(../img/promo_fon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+
+}
+
+.promo__row:nth-child(1) {
+  order: 1;
+  display: flex;
 }
 
 .promo__btn {
-  position: absolute;
-  bottom: -250px;
-  left: 0;
+  
 }
 
 .btn {
