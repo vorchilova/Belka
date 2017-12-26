@@ -107,17 +107,6 @@ ul {
   text-align: left;
 }
 
-
-
-
-.trails__title {
-  color: #000;
-  font-size: 30px;
-  font-family: Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-
 .page-header__time {
   display: none;
 }
@@ -137,6 +126,38 @@ ul {
 .promo__text--invisible {
   display: none;
 }
+ /*end style for header+promo*/
+
+.trails {
+  background-image: url(../img/trails_fon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.trails__title {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.trails__title:after {
+ position: absolute;
+ content:'';
+ width: 100px;
+ height: 2px;
+ background-color: #fff;
+ bottom: -15%;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+
+
 
 .trails__item:nth-child(2) {
   display: none;
