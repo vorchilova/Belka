@@ -148,7 +148,7 @@ ul {
 .trails__title:after {
  position: absolute;
  content:'';
- width: 100px;
+ width: 90px;
  height: 2px;
  background-color: #fff;
  bottom: -15%;
@@ -235,6 +235,65 @@ ul {
 .trails__item:nth-child(5) {
   display: none;
 }
+
+/*end for trails section*/
+.sale__title {
+  display: inline-block;
+  color: #000;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: -15px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.sale__title:after {
+ position: absolute;
+ content:'';
+ width: 80px;
+ height: 2px;
+ background-color: #000;
+ bottom: 65%;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+
+.sale__item {
+  height: 250px;
+  width: 100%;
+  /*background-color: red;*/
+  margin-bottom: 10px;
+  /*overflow: hidden;*/
+}
+
+.sale__item--one {
+  background-image: url(../img/sale_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 170%;
+  background-position: 70% 70%;
+}
+
+.sale__item--two {
+  background-image: url(../img/sale_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 170%;
+  background-position: 75% 35%;
+}
+
+.sale__item--three {
+  background-image: url(../img/sale_3.jpg);
+  background-repeat: no-repeat;
+  background-size: 180%;
+  background-position: 0% 20%;
+}
+
+
+
+/*end for sale*/
+
 
 .info__item-img:nth-child(2) {
   display: none;
