@@ -21,10 +21,13 @@ ul {
 }
 
 .page-header {
+   padding: 8px 0;
+   background-color: #e9e9f1;
+}
+.page-header__container {
   display: flex;
-  justify-content: flex-start;
-  padding: 8px 0;
-  background-color: #e9e9f1;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .page-header__phone {
@@ -41,6 +44,12 @@ ul {
   width: 180px;
   display: inline-block;
   padding-left: 10px;
+}
+
+.burger{
+  background-image: url(../img/burger.png);
+  background-repeat: no-repeat;
+  width: 10px;
 }
 
 .promo__row {
