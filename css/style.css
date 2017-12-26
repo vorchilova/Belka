@@ -157,6 +157,67 @@ ul {
  margin: auto;
 }
 
+.trails__item-row {
+  display: flex;
+  justify-content: center;
+}
+
+.trails__item {
+  width: 215px;
+  height: 320px;
+  background-image: url(../img/trail_1.jpg);
+  background-repeat: no-repeat;
+  color: #c7c7d3;
+  font-family: Arial, sans-serif;
+  margin-bottom: 70px;
+ }
+
+.trails__item-title {
+  display: inline-block;
+  font-size: 30px;
+  text-shadow: 1px 1px 4px #000;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+.trails__item-list { 
+  list-style-type: none;
+  font-size: 18px;
+  text-shadow: 1px 1px 4px #000;
+  margin-bottom: 10px;
+}
+
+.trails__item-list:nth-child(1):before {
+  background-size:100%;
+  content:'';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-image: url(../img/mountain.png);
+}
+
+.trails__item-list:nth-child(2):before {
+  background-size:80%;
+  content:'';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-image: url(../img/avatar.png);
+}
+
+.trails__item-text {
+  font-size: 18px;
+  margin-top: 70px;
+}
 
 
 .trails__item:nth-child(2) {
