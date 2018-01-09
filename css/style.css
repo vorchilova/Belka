@@ -340,8 +340,11 @@ ul {
  margin: auto;
 }
 
-
-.info__item-text {
+.info-row {
+  display: flex;
+  flex-direction: column;
+}
+.info__item {
   color: #fff;
 }
 
