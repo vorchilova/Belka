@@ -439,7 +439,7 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 15px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -449,14 +449,38 @@ ul {
  width: 80px;
  height: 2px;
  background-color: #000;
- bottom: 65%;
+ bottom: 55%;
  left: 0;
  right: 0;
  margin: auto;
 }
 
+.price-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 320px;
+  border-left: 0;
+  border-right: 0;
+  margin-left: -10px;
+}
 
-
+.price-table td {
+  border: 1px solid #22313f;
+  border-left: 0;
+  border-right: 0;
+  height: 57px;
+  position: relative;
+}
+.price-prev {
+  display: inline-block;
+  background-image: url(../img/prev_table.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 27px;
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}
 
 .reviews__item:nth-child(2) {
   display: none;
